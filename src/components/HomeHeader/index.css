@@ -1,0 +1,112 @@
+@media screen and (min-width: 812px) {
+  .place-search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .place-selector-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .places {
+    height: 40px;
+    width: 200px;
+  }
+  option {
+    font-size: 20px;
+    font-style: italic;
+  }
+  .search-input {
+    width: 312px;
+    height: 40px;
+    background: #efeffa;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 8px;
+  }
+  .popular-heading-sortBy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .popular-heading {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .popular-desc {
+    font-size: 16px;
+    font-style: italic;
+  }
+  .sortBy-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sort-option {
+    font-size: 15px;
+    font-style: italic;
+    margin-right: 5px;
+    margin-left: 4px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .place-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .place-selector-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .places {
+    height: 35px;
+    width: 150px;
+  }
+  option {
+    font-size: 12px;
+    font-style: italic;
+  }
+  .search-input {
+    width: 200px;
+    height: 40px;
+    background: #efeffa;
+    margin-left: 15px;
+    border: 0px;
+    border-radius: 8px;
+  }
+  .popular-heading-sortBy {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .popular-heading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .popular-desc {
+    font-size: 12px;
+    font-style: italic;
+    margin: 20px;
+  }
+  .sortBy-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .sort-option {
+    font-size: 10px;
+    font-style: italic;
+  }
+}
+.places {
+  border-radius: 10px;
+  margin-left: 10px;
+}

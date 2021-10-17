@@ -1,0 +1,136 @@
+@media screen and (min-width: 812px) {
+  .mobile-login-container {
+    display: none;
+  }
+  .desktop-login-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  .desktop-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-color: #fffaaa;
+    border-radius: 20px;
+    height: 60%;
+    width: 40%;
+    margin-top: 4%;
+    margin-left: 10%;
+  }
+  .login-logo {
+    height: 38.76px;
+    width: 38.56px;
+    margin-bottom: 5px;
+  }
+  .logo-name {
+    color: #f7931e;
+    font-size: 24px;
+    font-style: italic;
+  }
+  .login-head {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .up-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-button {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(243, 161, 10);
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  .error-msg {
+    color: red;
+    font-size: 10px;
+  }
+  .desktop-login-image {
+    width: 70vw;
+    height: 100vh;
+    margin-left: 200px;
+  }
+  .up-input {
+    border-radius: 8px;
+    background-color: #808080;
+    border: 0px;
+    width: 250px;
+    height: 40px;
+  }
+  .cb-label {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .desktop-login-container {
+    display: none;
+  }
+  .mobile-login-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-login-image {
+    width: 387px;
+    height: 387px;
+    margin-left: 36px;
+    margin-top: -36px;
+    border-radius: 249.95px;
+  }
+  .login-head {
+    font-size: 26px;
+    margin-left: 29px;
+    font-weight: 400;
+  }
+  .mobile-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #fffaaa;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+  }
+  .up-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  .error-msg {
+    font-size: 8px;
+    color: red;
+  }
+  .login-button {
+    width: 240px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 8px;
+    background-color: #f7931e;
+    border: 0px;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  .up-input {
+    background: #808080;
+    border-radius: 8px;
+    height: 40px;
+    width: 180px;
+    color: #ffffff;
+  }
+  .cb-label {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}

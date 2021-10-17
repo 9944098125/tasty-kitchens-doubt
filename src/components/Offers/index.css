@@ -1,0 +1,31 @@
+.carousel-loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 812px) {
+  .offers-carousel-container {
+    margin-bottom: 100px;
+    list-style-type: none;
+    padding: 5%;
+  }
+  .offer-image {
+    width: 90%;
+    height: 350px;
+    margin-left: 5%;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 812px) {
+  .offers-carousel-container {
+    margin-bottom: 50px;
+    list-style-type: none;
+    margin-right: 30px;
+  }
+  .offer-image {
+    width: 90vw;
+    height: 189px;
+    border-radius: 15px;
+  }
+}
